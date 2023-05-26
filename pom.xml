@@ -541,6 +541,7 @@
 
   <properties>
     <!-- maven properties -->
+    <sonar.projectKey> Org-Virgilio-SoftwareTest_SoftwareTestZK </sonar.projectKey>
      <sonar.organization>org-virgilio-softwaretest</sonar.organization>
      <sonar.moduleKey>${artifactId}</sonar.moduleKey>
      <sonar.host.url>https://sonarcloud.io</sonar.host.url>

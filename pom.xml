@@ -56,6 +56,7 @@
     </license>
   </licenses>
 
+  
   <modules>
     <module>zookeeper-docs</module>
     <module>zookeeper-jute</module>
@@ -540,6 +541,10 @@
 
   <properties>
     <!-- maven properties -->
+    
+    <sonar.organization>org-virgilio-softwaretest</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <dependency.locations.enabled>false</dependency.locations.enabled>
